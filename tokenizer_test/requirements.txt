@@ -1,0 +1,6 @@
+# Minimal requirements for tokenizer_test scripts
+# Python 3.7+
+
+# No external dependencies required for minbpe.py, tokenize.py, or train.py
+# If you want to use Jupyter notebooks:
+# jupyter 
