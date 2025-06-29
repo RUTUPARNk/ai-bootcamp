@@ -3,7 +3,7 @@
 // @namespace    http://tampermonkey.net/
 // @version      3.0
 // @description  Auto-sort ZeptoNow products by price with spinner, draggable toggle button, and ZeptoNow styling without freezing browser.
-// @author       You
+// @author       Rutuparn K.
 // @match        https://www.zeptonow.com/*
 // @grant        none
 // ==/UserScript==
