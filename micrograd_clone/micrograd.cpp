@@ -26,12 +26,42 @@ struct Value {
         return out;
     }
 
+    // Operator Overloading: Substraction
+    Value Operator-(Value& other) {
+        Value out(this->data - other;.data, {this, &other}, "-");
+        out._backward = [this, &other, &out]() {
+            this->grad += 1.0 * out.grad;
+            other.grad += 1.0 * out.grad;
+        };
+        return out; 
+    }
+
     // Operator Overloading: Multiplication
     Value operator*(Value& other) {
         Value out(this->data * other.data, {this, &other}, "*"):
         out._backward = [this, &other, &out]() {
             this->grad += other.data * out.grad;
             other.grad += this->data * out.grad;
+        };
+        return out;
+    }
+
+    // Operator Overloading Division 
+    Value operator/(Value& other) {
+        Value out(this->data / other.data, {this, &other}, "/");
+        out._backward = [this, &other, &out]() {
+            this->grad += (1.0 / other.data) * out.grad;
+            other.grad += (-this->data / (other.data * other.data)) * out.grad;
+        };
+        return out;
+    }
+
+    // Exponentiation 
+    Value pow(double exponent) {
+        double result = std::pow(this->data, exponent);
+        Value out(result, {this}, "^" + std::to_string(exponent));
+        out._backward = [this, exponent, &out]() {
+            this->grad += exponent * std::pow(this->data, exponent - 1) * out.grad;
         };
         return out;
     }
@@ -54,7 +84,9 @@ struct Value {
 
         this->grad = 1.0;
 
+        std::cout << "\n--- Backward Pass debugging ---\n";
         for (auto it = topo.rbegin(); it != topo.rend(); ++it) {
+            std::cout << "Node: " << (*it)->op << " | Value: " << (*it)->data << " | Grad: " << (*it)->grad << "\n";
             (*it)->_backward();
         }
     }
@@ -70,13 +102,15 @@ struct Value {
         }
     }
     main() {
-        // Example: z = (x * y) + (x + y)
+        // Example: z = ((x * y) + (x / y)) - (x^2)
         Value x(2.0);
         Value y(3.0);
 
         Value q = x * y;
-        Value p = q + x;
-        Value z = p + y;
+        Value r = x / y;
+        Value s = q + x;
+        Value t = x.pow(2.0);
+        Value z = s - t;
 
         z.backward();
 
