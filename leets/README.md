@@ -11,23 +11,6 @@ Given an array `citations` of integers representing the number of citations each
 > The H-Index is defined as the maximum value `h` such that the researcher has at least `h` papers with at least `h` citations each.
 
 ---
-
-## 🧪 Example
-
-### Example 1:
-```python
-Input: citations = [3, 0, 6, 1, 5]
-Sorted: [0, 1, 3, 5, 6]
-Output: 3
-Explanation:
-There are 3 papers with at least 3 citations.
-
-Input: citations = [1, 2, 100]
-Sorted: [1, 2, 100]
-Output: 2
-Explanation:
-There are 2 papers with at least 2 citations.
-
 ## Constraints
 
     n == citations.length
@@ -64,3 +47,21 @@ def hIndex_by_difference(citations):
 | ---------------- | ------------------------------------------------------ |
 | Time Complexity  | `O(n log n)` — due to sorting                          |
 | Space Complexity | `O(1)` — in-place sorting and constant auxiliary space |
+
+
+## 🧪 Example
+
+### Example 1:
+```python
+Input: citations = [3, 0, 6, 1, 5]
+Sorted: [0, 1, 3, 5, 6]
+Output: 3
+Explanation:
+There are 3 papers with at least 3 citations.
+
+Input: citations = [1, 2, 100]
+Sorted: [1, 2, 100]
+Output: 2
+Explanation:
+There are 2 papers with at least 2 citations.
+
