@@ -46,7 +46,7 @@ def hIndex_by_difference(citations):
     citations.sort()
     n = len(citations)
     for i in range(n):
-        if citations[i] >= n - i:
+        if citations[i] - (n - i) >= 0:
             return n - i
     return 0
 ---
