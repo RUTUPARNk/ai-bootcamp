@@ -33,6 +33,13 @@ Then the H-Index = n - i.
 
 This difference-based threshold tracking leads to a concise and performant implementation.
 ---
+## Time and Space Complexity
+| Metric           | Complexity                                             |
+| ---------------- | ------------------------------------------------------ |
+| Time Complexity  | `O(n log n)` — due to sorting                          |
+| Space Complexity | `O(1)` — in-place sorting and constant auxiliary space |
+
+---
 ## Code
 ```python
 def hIndex_by_difference(citations):
@@ -43,12 +50,6 @@ def hIndex_by_difference(citations):
             return n - i
     return 0
 ---
-
-## Time and Space Complexity
-| Metric           | Complexity                                             |
-| ---------------- | ------------------------------------------------------ |
-| Time Complexity  | `O(n log n)` — due to sorting                          |
-| Space Complexity | `O(1)` — in-place sorting and constant auxiliary space |
 
 
 ## 🧪 Example
