@@ -103,4 +103,12 @@ MIT © RUTUPARNk
 |  |
 | ------- |
 | [0380-insert-delete-getrandom-o1](https://github.com/RUTUPARNk/ai-bootcamp/tree/master/0380-insert-delete-getrandom-o1) |
+## Two Pointers
+|  |
+| ------- |
+| [0165-compare-version-numbers](https://github.com/RUTUPARNk/ai-bootcamp/tree/master/0165-compare-version-numbers) |
+## String
+|  |
+| ------- |
+| [0165-compare-version-numbers](https://github.com/RUTUPARNk/ai-bootcamp/tree/master/0165-compare-version-numbers) |
 <!---LeetCode Topics End-->
