@@ -90,10 +90,12 @@ MIT © RUTUPARNk
 ## Hash Table
 |  |
 | ------- |
+| [0166-fraction-to-recurring-decimal](https://github.com/RUTUPARNk/ai-bootcamp/tree/master/0166-fraction-to-recurring-decimal) |
 | [0380-insert-delete-getrandom-o1](https://github.com/RUTUPARNk/ai-bootcamp/tree/master/0380-insert-delete-getrandom-o1) |
 ## Math
 |  |
 | ------- |
+| [0166-fraction-to-recurring-decimal](https://github.com/RUTUPARNk/ai-bootcamp/tree/master/0166-fraction-to-recurring-decimal) |
 | [0380-insert-delete-getrandom-o1](https://github.com/RUTUPARNk/ai-bootcamp/tree/master/0380-insert-delete-getrandom-o1) |
 ## Design
 |  |
@@ -111,4 +113,5 @@ MIT © RUTUPARNk
 |  |
 | ------- |
 | [0165-compare-version-numbers](https://github.com/RUTUPARNk/ai-bootcamp/tree/master/0165-compare-version-numbers) |
+| [0166-fraction-to-recurring-decimal](https://github.com/RUTUPARNk/ai-bootcamp/tree/master/0166-fraction-to-recurring-decimal) |
 <!---LeetCode Topics End-->
