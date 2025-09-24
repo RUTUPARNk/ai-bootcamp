@@ -81,37 +81,3 @@ We welcome contributions! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for gui
 
 ## License
 MIT © RUTUPARNk
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Array
-|  |
-| ------- |
-| [0380-insert-delete-getrandom-o1](https://github.com/RUTUPARNk/ai-bootcamp/tree/master/0380-insert-delete-getrandom-o1) |
-## Hash Table
-|  |
-| ------- |
-| [0166-fraction-to-recurring-decimal](https://github.com/RUTUPARNk/ai-bootcamp/tree/master/0166-fraction-to-recurring-decimal) |
-| [0380-insert-delete-getrandom-o1](https://github.com/RUTUPARNk/ai-bootcamp/tree/master/0380-insert-delete-getrandom-o1) |
-## Math
-|  |
-| ------- |
-| [0166-fraction-to-recurring-decimal](https://github.com/RUTUPARNk/ai-bootcamp/tree/master/0166-fraction-to-recurring-decimal) |
-| [0380-insert-delete-getrandom-o1](https://github.com/RUTUPARNk/ai-bootcamp/tree/master/0380-insert-delete-getrandom-o1) |
-## Design
-|  |
-| ------- |
-| [0380-insert-delete-getrandom-o1](https://github.com/RUTUPARNk/ai-bootcamp/tree/master/0380-insert-delete-getrandom-o1) |
-## Randomized
-|  |
-| ------- |
-| [0380-insert-delete-getrandom-o1](https://github.com/RUTUPARNk/ai-bootcamp/tree/master/0380-insert-delete-getrandom-o1) |
-## Two Pointers
-|  |
-| ------- |
-| [0165-compare-version-numbers](https://github.com/RUTUPARNk/ai-bootcamp/tree/master/0165-compare-version-numbers) |
-## String
-|  |
-| ------- |
-| [0165-compare-version-numbers](https://github.com/RUTUPARNk/ai-bootcamp/tree/master/0165-compare-version-numbers) |
-| [0166-fraction-to-recurring-decimal](https://github.com/RUTUPARNk/ai-bootcamp/tree/master/0166-fraction-to-recurring-decimal) |
-<!---LeetCode Topics End-->
